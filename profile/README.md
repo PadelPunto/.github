@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/panel-banner.png" alt="Padel Punto – your watch keeps the score, the tablet shows it big" width="840">
+  <img src="images/banner.png" alt="Padel Punto – no more “wait, what’s the score?” Count on your watch, see it big at the court" width="840">
 </p>
 
 <h3 align="center">
