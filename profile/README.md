@@ -3,8 +3,8 @@
 </p>
 
 <h3 align="center">
-  No more “wait, what’s the score?”<br>
-  Count padel on your watch – one tap per point – and show it big at the court.
+  Free padel apps that work together:<br>
+  the watch keeps the score, the tablet at the court shows it to everyone.
 </h3>
 
 <br>
