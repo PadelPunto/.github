@@ -47,5 +47,5 @@ Every new device gets its own repository and speaks the same [protocol](https://
 ---
 
 <p align="center">
-  <sub>Made with ☕ by Toni &amp; Claude · Free &amp; open source (GPL-3.0)</sub>
+  <sub>Made with ☕ by Toni &amp; Claude AI · Free &amp; open source (GPL-3.0)</sub>
 </p>
