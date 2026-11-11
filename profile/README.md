@@ -2,55 +2,89 @@
   <img src="images/banner.png" alt="Padel Punto – no more “wait, what’s the score?” Count on your watch, see it big at the court" width="840">
 </p>
 
+<p align="center">
+  <a href="https://github.com/PadelPunto/watch-zepp#-get-it-on-your-watch"><img src="https://img.shields.io/badge/Watch%20app-in%20the%20Zepp%20App%20Store-d4f53c?labelColor=23272c&style=for-the-badge" alt="Watch app: in the Zepp App Store"></a>
+  <img src="https://img.shields.io/badge/Tablet%20scoreboard-coming%20soon-8b949e?labelColor=23272c&style=for-the-badge" alt="Tablet scoreboard: coming soon">
+  <a href="https://github.com/PadelPunto/watch-zepp/blob/main/LICENSE"><img src="https://img.shields.io/badge/free-open%20source-d4f53c?labelColor=23272c&style=for-the-badge" alt="Free and open source"></a>
+</p>
+
 <h3 align="center">
-  Free padel apps that work together:<br>
-  the watch keeps the score, the tablet at the court shows it to everyone.
+  Tap your side, play the next point.<br>
+  Your watch keeps the score – and calls it out loud.
 </h3>
 
 <br>
 
-## 🎾 How it works
-
-```
-   ⌚ Watch                    📡 Bluetooth LE                 📺 Tablet at the court
-   counts every point   ──────────────────────────────▶   shows the score big
-   (works on its own)          PadelPunto/protocol          (live, two designs)
-```
-
-**The watch counts, everything else shows.** If the tablet is gone, the watch simply carries on.
-No phone, no internet, no account.
-
-- ⌚ **The watch app is here:** Padel Punto is in the Zepp App Store (in the Zepp app: your watch →
-  App Store → “Padel Punto”).
-- 📺 **The tablet scoreboard is coming soon:** Padel Punto Panel is being tested at the court.
-- ✉️ **Questions or feedback:** <padelpunto@mailbox.org>
+## Padel Punto for your watch
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="images/match.png" alt="Match screen on the watch" width="220"><br><sub><b>One tap per point</b> on the watch</sub></td>
-    <td align="center" width="33%"><img src="images/serve-spin.webp" alt="Racket spin that picks who serves" width="200"><br><sub><b>Racket spin</b> picks who serves</sub></td>
-    <td align="center" width="33%"><img src="images/arena.png" alt="Arena design on the tablet" width="280"><br><sub><b>Live on the tablet</b> – Arena design</sub></td>
+    <td width="46%" align="center">
+      <img src="images/match.png" alt="Match screen on the watch: 30:15, second set" width="170">
+      &nbsp;
+      <img src="images/serve-spin.webp" alt="A spinning racket picks who serves" width="170">
+    </td>
+    <td valign="top">
+      <p><b>Available now</b> in the Zepp App Store<br>
+      <sub>Amazfit Bip 6 · Active 2 (Square) · Bip Max</sub></p>
+      <ul>
+        <li><b>One tap per point</b> on big team cards, readable in bright sun</li>
+        <li><b>The score out loud</b> after every point, offline</li>
+        <li><b>Your rules:</b> Advantage, Golden Point or Star Point, short sets, match tiebreak</li>
+        <li><b>On its own:</b> no phone, no internet, no account</li>
+      </ul>
+      <p><b>Get it:</b> Zepp app → your watch → App Store<br>
+      <a href="https://github.com/PadelPunto/watch-zepp">All features and the code →</a></p>
+    </td>
   </tr>
 </table>
 
-## 📦 Repositories
+## Padel Punto Panel for the tablet
 
-| | Repository | What it is |
-|---|---|---|
-| ⌚ | **[watch-zepp](https://github.com/PadelPunto/watch-zepp)** | **Padel Punto** for Amazfit (Zepp OS): Bip 6, Active 2 (Square), Bip Max – counts, says the score out loud, buzzes at change of ends |
-| 📱 | **app-android** · coming soon | **Padel Punto Panel** for Android: the tablet scoreboard at the court |
-| 📡 | **protocol** · coming soon | The Bluetooth LE protocol every Padel Punto device speaks |
+<table>
+  <tr>
+    <td width="46%" align="center">
+      <img src="images/arena.png" alt="Padel Punto Panel on a tablet, Arena design" width="360">
+    </td>
+    <td valign="top">
+      <p><b>Coming soon</b> for Android tablets<br>
+      <sub>being tested at the court right now</sub></p>
+      <ul>
+        <li><b>Everyone sees the score:</b> big and live at the court</li>
+        <li><b>Two designs:</b> Arena and Court</li>
+        <li><b>Pair once,</b> then the watch connects by itself at every match</li>
+        <li><b>The watch stays the boss:</b> if the tablet is gone, nothing changes</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-## 🗺️ What’s next
+## How it works
 
-- ⌚ **More watches** – `watch-wearos`, `watch-garmin`, …
-- 🔘 **A clicker** at the court – `clicker-…`
-- 📱 **More on Android** – `app-android` grows beyond the tablet
+<p align="center">
+  <img src="images/flow.png" alt="The watch counts every point and sends the score over Bluetooth to the tablet, which shows it big at the court. No phone, no internet." width="840">
+</p>
 
-Every new device gets its own repository and speaks the same protocol.
+<details>
+<summary><b>For developers</b></summary>
+
+<br>
+
+Every device gets its own repository, and all of them speak the same Bluetooth LE protocol.
+
+| Repository | What it is |
+|---|---|
+| **[watch-zepp](https://github.com/PadelPunto/watch-zepp)** | Padel Punto for Amazfit watches (Zepp OS) |
+| **app-android** · coming soon | Padel Punto Panel, the tablet scoreboard for Android |
+| **protocol** · coming soon | The Bluetooth LE protocol between the devices |
+
+Ideas for later: more watches (`watch-wearos`, `watch-garmin`), a clicker at the court (`clicker-…`), more on Android.
+
+</details>
 
 ---
 
 <p align="center">
-  <sub>Made with ☕ by Toni &amp; Claude AI · Free &amp; open source (GPL-3.0)</sub>
+  Questions or feedback? <a href="mailto:padelpunto@mailbox.org">padelpunto@mailbox.org</a><br>
+  <sub>Made by Toni &amp; Claude AI · Free &amp; open source (GPL-3.0)</sub>
 </p>
