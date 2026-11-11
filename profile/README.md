@@ -20,6 +20,11 @@
 **The watch counts, everything else shows.** If the tablet is gone, the watch simply carries on.
 No phone, no internet, no account.
 
+- ⌚ **The watch app is here:** Padel Punto is in the Zepp App Store (in the Zepp app: your watch →
+  App Store → “Padel Punto”).
+- 📺 **The tablet scoreboard is coming soon:** Padel Punto Panel is being tested at the court.
+- ✉️ **Questions or feedback:** <padelpunto@mailbox.org>
+
 <table>
   <tr>
     <td align="center" width="33%"><img src="images/match.png" alt="Match screen on the watch" width="220"><br><sub><b>One tap per point</b> on the watch</sub></td>
@@ -33,8 +38,8 @@ No phone, no internet, no account.
 | | Repository | What it is |
 |---|---|---|
 | ⌚ | **[watch-zepp](https://github.com/PadelPunto/watch-zepp)** | **Padel Punto** for Amazfit (Zepp OS): Bip 6, Active 2 (Square), Bip Max – counts, says the score out loud, buzzes at change of ends |
-| 📱 | **[app-android](https://github.com/PadelPunto/app-android)** | **Padel Punto Panel** for Android: the tablet scoreboard at the court |
-| 📡 | **[protocol](https://github.com/PadelPunto/protocol)** | The Bluetooth LE protocol every Padel Punto device speaks |
+| 📱 | **app-android** · coming soon | **Padel Punto Panel** for Android: the tablet scoreboard at the court |
+| 📡 | **protocol** · coming soon | The Bluetooth LE protocol every Padel Punto device speaks |
 
 ## 🗺️ What’s next
 
@@ -42,7 +47,7 @@ No phone, no internet, no account.
 - 🔘 **A clicker** at the court – `clicker-…`
 - 📱 **More on Android** – `app-android` grows beyond the tablet
 
-Every new device gets its own repository and speaks the same [protocol](https://github.com/PadelPunto/protocol).
+Every new device gets its own repository and speaks the same protocol.
 
 ---
 
